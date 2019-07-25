@@ -1,0 +1,24 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Russo One", sans-serif;
+}
+
+.colorBtn {
+  padding: 0.25rem 0.5rem;
+  border: 2.5px solid #fefefe;
+  border-radius: 5px;
+  color: #fefefe;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  outline: none;
+  font-family: "Russo One", sans-serif;
+}
+
+.colorBtn:hover {
+  background: rgb(0, 0, 0);
+}
